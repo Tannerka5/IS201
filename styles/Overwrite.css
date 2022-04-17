@@ -1,0 +1,43 @@
+/*
+Add padding below title on Index Page
+Make title on Index Page bold
+Make Images on About-Me correct size
+Make Image on Index correct size
+Make Cassidy Arch change to Cassidy Arch Zoomed on hover
+Add drop down box on nav bar "About Me" to add links to Passions and Contact Me
+*/
+.resume {
+    margin-left: 0;
+    margin-right: 0;
+}
+.text-left {
+    text-align: left;
+}
+.resume-line {
+    border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+}
+.bolden {
+    font-weight: bold;
+}
+.resume-page {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.index-picture {
+    height: auto;
+    width: 50%;
+    float: right;
+}
+.passion-picture {
+    height: 650px;
+    width: auto;
+    position: relative;
+    z-index: 0;
+}
+.heading {
+    padding-top: 20px;
+}
